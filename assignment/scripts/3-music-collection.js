@@ -31,18 +31,19 @@ function showCollection(array) {
     for (let i = 0; i < array.length; i++) {
         console.log(array[i].title, 'by', array[i].artist, 'published in:', array[i].yearPublished);
     } // loops through each item in the array printing the album information!
+    return '--- end of collection ---';
 } // end showCollection function
 
 console.log(showCollection(collection));
 
 function findByArtist(string, array) {
-    let work = [];
-    for (let i = 0; i < array.length - 1; i++) {
+    let work = []; // blank array to store values
+    for (let i = 0; i < array.length; i++) {
         if (array[i].artist === string) {
             work.push(array[i]);
-        }
-        return;
+        } // loop to check through collection for artists work
     }
+    return work; // show us those results!
 }
 
 console.log(findByArtist('Glass Animals', collection));
