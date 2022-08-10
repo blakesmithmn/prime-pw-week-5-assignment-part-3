@@ -48,3 +48,10 @@ function findByArtist(string, array) {
 
 console.log(findByArtist('Glass Animals', collection));
 console.log(findByArtist('Doja Cat', collection));
+
+
+// stretch goals!
+
+// function search(){
+
+// }
