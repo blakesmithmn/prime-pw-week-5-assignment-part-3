@@ -51,7 +51,23 @@ console.log(findByArtist('Doja Cat', collection));
 
 
 // stretch goals!
+console.log('--- STRETCH GOALS ---');
+// function search(object, array) {
+//     for (let i = 0; i < array.length; i++) {
+//         if (object === array[i]) {
 
-// function search(){
+//         }
+//         else if (!object) {
 
+//         }
+//         else {
+
+//         }
+//     }
+//     return something;
 // }
+
+// this one really threw me for a loop
+
+// adding tracks
+
